@@ -1,0 +1,57 @@
+/* Add Staff Button */
+.staff-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 30px auto;   /* 👈 centers the whole form */
+  gap: 12px;           /* 👈 space between inputs */
+}
+
+/* Inputs spacing + style */
+.staff-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Center Add button */
+.add-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+/* Delete Button */
+/* Professional Delete Button */
+.delete-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 10px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.delete-btn:hover {
+  background: #e60000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.delete-btn:active {
+  transform: scale(0.95);
+}
