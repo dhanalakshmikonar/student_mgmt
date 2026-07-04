@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 const subjectRoutes = require("./routes/subjectRoutes");
-const departmentRoutes = require("./routes/departmentRoutes");
+const departmentRoutes = require("./routes/DepartmentRoutes");
 const attendanceRoutes = require("./routes/attendanceRoutes");
 const Student = require("./models/Student");
 const markRoutes = require("./routes/markRoutes");
